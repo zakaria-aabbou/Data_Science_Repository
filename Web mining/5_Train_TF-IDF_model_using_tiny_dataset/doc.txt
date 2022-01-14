@@ -1,0 +1,7 @@
+3
+4	angeles	1
+5	los	1
+0	new	2
+3	post	1
+1	times	2
+2	york	2

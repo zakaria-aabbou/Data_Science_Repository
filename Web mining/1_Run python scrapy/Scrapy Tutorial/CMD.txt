@@ -1,0 +1,11 @@
+cd C:\Users\Zakaria\Anaconda_Projects\6- Web_mining\1\Scrapy Tutorial
+scrapy startproject tutorial
+cd tutorial
+scrapy crawl quotes
+
+scrapy shell "http://quotes.toscrape.com/page/1/"
+response.css('title')
+response.css('title::text').getall()
+response.css('title').getall()
+response.css('title::text').get()
+response.css('title::text')[0].get()
